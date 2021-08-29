@@ -27,16 +27,6 @@ const plugin: EggPlugin = {
     package: 'egg-redis',
   },
 
-  'gaia-admin': {
-    enable: true,
-    package: '17zy_gaia-admin',
-  },
-
-  'gaia-service17': {
-    enable: true,
-    package: '17zy_gaia-service17',
-  },
-
 };
 
 export default plugin;
