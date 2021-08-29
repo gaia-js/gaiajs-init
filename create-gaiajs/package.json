@@ -1,0 +1,19 @@
+{
+  "name": "create-gaiajs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rockyzh/gaiajs-init.git"
+  },
+  "author": "yonggang.zhang",
+  "license": "ISC",
+  "bin": "./bin/create-gaiajs.js",
+  "dependencies": {
+    "egg-init": "^2.2.0"
+  }
+}

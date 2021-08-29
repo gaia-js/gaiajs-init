@@ -1,0 +1,8 @@
+{
+  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "extends": ["tslint-microsoft-contrib", "17zy_egg-gaiajs/tslint.gaia.json"],
+  "rules": {
+    "no-promise-as-boolean": true,
+    "@typescript-eslint/no-unused-vars": ["error"]
+  }
+}

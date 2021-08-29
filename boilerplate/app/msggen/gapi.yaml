@@ -1,0 +1,42 @@
+title: {{name}}
+description:
+version:
+app-name: # 用来生成请求的域名
+common-response:
+  properties:
+    success:
+      type: boolean
+      comment: 请求是否成功
+    code:
+      type: int
+      comment: 错误代码
+
+paths:
+  - name: Hello
+    url: com.voxlearning.{{name}}.service@1.0.0/hello
+    service: com.voxlearning.{{name}}.service
+    version: "1.0.0"
+    invoke_method: hello
+    tags:
+      - hydra
+    method: POST
+    parameters:
+    response:
+      properties:
+        data:
+          type: Dummy
+
+  - name: HomeIndex
+    url: /
+    comment:
+    parameters:
+    response:
+      properties:
+        data:
+          type: Dummy
+
+types:
+  Dummy:
+    properties:
+      field_name:
+        type: string
