@@ -1,5 +1,5 @@
-import Controller from 'egg-gaiajs/app/lib/router/controller';
-import bp from 'egg-gaiajs/app/lib/router/blueprint';
+import Controller from '@gaiajs/gaiajs/app/lib/router/controller';
+import bp from '@gaiajs/gaiajs/app/lib/router/blueprint';
 
 export default class HomeController extends Controller {
   @bp.get('/', { auth_required: false })

@@ -1,4 +1,4 @@
-import BaseService from 'egg-gaiajs/app/lib/BaseService';
+import BaseService from '@gaiajs/gaiajs/app/lib/BaseService';
 
 /**
  * Test Service

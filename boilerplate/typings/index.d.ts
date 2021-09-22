@@ -1,6 +1,6 @@
 import 'egg';
-import 'egg-gaiajs';
-import { gaia } from 'egg-gaiajs';
+import '@gaiajs/gaiajs';
+import { gaia } from '@gaiajs/gaiajs';
 
 declare module 'egg' {
   interface IService extends IAppService, gaia.IService {
@@ -13,7 +13,7 @@ declare module 'egg' {
     object: IObject
   }
 
-  interface Application extends IGaiaApplication, IGaiaService17Application, EggApplication {
+  interface Application extends IGaiaApplication, EggApplication {
     model: IModel;
   }
 }
